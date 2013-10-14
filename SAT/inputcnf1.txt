@@ -1,0 +1,63 @@
+p cnf 9 0
+p Central cells
+p Alive Cell 5 1 1
+5 0
+p already 2 or more: N <= 3, we have 2
+p Take 2 out of 6 negative
+-1 -3 0
+-6 -1 0
+-6 -3 0
+-7 -1 0
+-7 -3 0
+-7 -6 0
+-8 -1 0
+-8 -3 0
+-8 -6 0
+-8 -7 0
+-9 -1 0
+-9 -3 0
+-9 -6 0
+-9 -7 0
+-9 -8 0
+p Vertical sides cells
+p Alive Cell 4 1 0
+4 0
+p already 2 or more: N <= 3, we have 2
+p Take 2 out of 3 negative
+-1 -7 0
+-8 -1 0
+-8 -7 0
+p Not three in a column
+-1 -4 -7 0
+p Dead Cell 6 1 2
+9 -3 -8 0
+-9 8 -3 0
+-9 -8 3 0
+p Not three in a column
+-3 -6 -9 0
+p Horizontal sides cells
+p Alive Cell 2 0 1
+2 0
+p already 2 or more: N <= 3, we have 2
+p Take 2 out of 3 negative
+-1 -3 0
+-6 -1 0
+-6 -3 0
+p Not three in a row
+-1 -2 -3 0
+p Dead Cell 8 2 1
+9 -6 -7 0
+-9 7 -6 0
+-9 -7 6 0
+p Not three in a row
+-7 -8 -9 0
+p Corners
+p Dead Cell 1 0 0
+p 4 <= N, we have 3
+1 0
+p Dead Cell 3 0 2
+p K = 2 > dead neighbours= 1  -- not sat
+p Dead Cell 7 2 0
+p K = 2 > dead neighbours= 1  -- not sat
+p Dead Cell 9 2 2
+p K = 3 > dead neighbours= 2  -- not sat
