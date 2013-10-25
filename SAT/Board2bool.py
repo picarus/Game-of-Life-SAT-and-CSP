@@ -63,6 +63,8 @@ def notChange(B, BI, BHM, BDC, r, c):
         print 'p Dead Cell', BI[r][c], r, c
         # not three
         generateNot3(BI[r][c],BHM[r][c],BDC[r][c])
+        # must be considered in case the dead cell gets alive
+        ----generate2or3(BI[r][c],BHM[r][c],BDC[r][c])
 
 def generate2or3(me,hm,ei):
     # Alive cell

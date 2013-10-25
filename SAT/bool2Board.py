@@ -19,12 +19,6 @@ def bool2board(name):
     
     printBoard(B)
 
-def set(cell,B, value, n):
-    cell = cell - 1
-    r = cell // n
-    c = cell % n
-    B[r][c]=value;
-
 # This is the standard boilerplate that calls the main() function.
 if __name__ == '__main__':
     main()

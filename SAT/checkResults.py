@@ -1,6 +1,6 @@
 
 import sys
-from boardutils import readFile, printBoard, generateBoardFromMinisatOutput, generateBoardFromInput
+from boardutils import readFile, printBoard, generateBoardFromMinisatOutput, generateBoardFromInput, generateBoardFromMinisatExtendedOutput
 from math import sqrt
 
 def main():
@@ -17,7 +17,7 @@ def checkResults(name1, name2):
     M1 = readFile(name1)
     B1 = generateBoardFromInput(M1)
     M2 = readFile(name2)
-    B2 = generateBoardFromMinisatOutput(M2)
+    B2 = generateBoardFromMinisatExtendedOutput(M2)
 
     compare(B1,B2)
 
