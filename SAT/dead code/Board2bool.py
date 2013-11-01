@@ -2,9 +2,7 @@
 #count number of constraints  --> not needed
 #corners
 #sorted network
-#minisat2
-#other solvers
-#solver parameters
+
 
 from boardutils import readFile, printBoard, generateBoardFromInput, generateIndexBoard, generateHowManyBoard
 import sys

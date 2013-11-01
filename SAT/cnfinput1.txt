@@ -1,9 +1,9 @@
-p cnf 304 0
-p Alive Cells 4
-p input3.txt
-7 0
-54 0
--56 0
+c Alive Cells 3
+c input1.txt
+p cnf 304 884
+7 -55 56 0
+-7 54 0
+-7 -56 0
 -26 1 8 0
 -1 26 0
 -8 26 0

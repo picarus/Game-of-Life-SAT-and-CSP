@@ -3,7 +3,6 @@ import sys
 from boardutils import readFile, printBoard, generateIndexBoard, generateBoardFromMinisatExtendedOutput
 from math import sqrt
 
-NAUX = 31   # Number of auxiliary variables per cell
 
 def main():
     if len(sys.argv) >= 2:
@@ -14,10 +13,13 @@ def main():
         bool2board('outputcnf1.txt')  
 
 
-
 def bool2board(name):
     
     M = readFile(name)
+
+    if M[0][0]=='UNSAT':
+        print 'UNSAT PROBLEM'
+        return
 
     B = generateBoardFromMinisatExtendedOutput(M)
 

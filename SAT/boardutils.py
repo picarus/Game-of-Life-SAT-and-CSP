@@ -23,7 +23,6 @@ def generateExtendedBoardFromInput(M):
 def generateBoardFromInput(M):
     return generateBoardFromInputCore(M,0)
 
-
 def getN(M): 
     return int(M[0][0])
 
@@ -47,8 +46,7 @@ def generateBoardFromInputCore(M,margin):
         
     return B
 
-
-def calculateN(nVars, NAUX):
+def calculateN(nVars):
     A = NAUX+1
     B = 4 
     C = 4 - nVars
@@ -63,10 +61,10 @@ def calculateN(nVars, NAUX):
 
 def generateBoardFromMinisatExtendedOutput(M):
     # from the results file
-    # we generate a matrix with 0/1 
-
+    # we generate a matrix with 0/1
+    
     nVars = len( M[1] )-1
-    N = calculateN( nVars, NAUX )
+    N = calculateN( nVars )
     SizeTable = int(pow(N+2,2))
 
     results = [int(cell) for cell in M[1][0:SizeTable]]

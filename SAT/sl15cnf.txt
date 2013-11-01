@@ -1,6 +1,6 @@
-p cnf 7264 0
-p Alive Cells 110
-p sl15.txt
+c Alive Cells 110
+c sl15.txt
+p cnf 7264 21716
 19 0
 318 0
 -320 0

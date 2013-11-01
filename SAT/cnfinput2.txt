@@ -1,4 +1,4 @@
-p cnf 532 0
+p cnf 532 1564
 p Alive Cells 2
 p input2.txt
 8 -66 67 0

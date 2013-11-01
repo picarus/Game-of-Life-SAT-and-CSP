@@ -1,4 +1,9 @@
-from boardutils import readFile, printBoard, generateExtendedBoardFromInput, generateIndexBoard, getN
+#minisat2
+#other solvers
+#solver parameters
+
+
+from boardutils import readFile, printBoard, generateExtendedBoardFromInput, generateIndexBoard, getN, NAUX
 from math import pow
 import sys
 
@@ -10,8 +15,6 @@ import sys
 #####################################################
 
 clauses=[]  # Set of clauses that generate the auxiliary variables
-
-NAux=31     # Number of auxiliary variables per cell
 
 N=0         # Number of cols/rows in the table
             # the extended table will have 2 more rows and cols
@@ -111,7 +114,7 @@ def getNeighbours(i,j,BI):
     return nghbr
 
 def calculateOffset( i , j ):
-    return ( (j - 1) * N + (i - 1) ) * NAux +  SizeTable - 8
+    return ( (j - 1) * N + (i - 1) ) * NAUX +  SizeTable - 8
     
 def replicateAuxVars(i, j, BI, offset):   
     neighbours=getNeighbours(i,j, BI)
@@ -245,17 +248,17 @@ def board2bool(name):
 
     nAlives = len(M)-1
     nCells = int(pow(N,2))
-    nVars = int( SizeTable + NAux * nCells )
-    nClauses = NAux * nCells                    # auxiliary variables
+    nVars = int( SizeTable + NAUX * nCells )
+    nClauses = NAUX * nCells * 3                # auxiliary variables
     nClauses = nClauses + 4 * N + 4             # margin of zeros
-    nClauses = nClauses + 4 * N                 # no three in a row
+    nClauses = nClauses + 4 * ( N - 2 )         # no three in a row
     nClauses = nClauses +(nCells-nAlives) * 3   # dead cells
     nClauses = nClauses + nAlives * 3           # alive cells
 
+    print 'c Alive Cells', nAlives
+    print 'c', name
     print 'p cnf', nVars, nClauses
-    print 'p Alive Cells', nAlives
-    print 'p', name
-       
+   
     generateRules(B, BI)
 
 def main():
