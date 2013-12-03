@@ -1,0 +1,2 @@
+* explore use of heuristics for variable and constraint ordering selection
+* simmetries?

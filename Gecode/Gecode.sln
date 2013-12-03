@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GecodeSamples", "GecodeSamples\GecodeSamples.vcxproj", "{29E82031-28AA-46FC-8A3D-10956F411FA7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Golf", "Golf\Golf.vcxproj", "{3338CC0B-42C7-410C-A7F3-121CFFAE8336}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GoL", "GoL\GoL.vcxproj", "{C83FEA1A-D3CE-4BA1-8350-4A125C04D483}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29E82031-28AA-46FC-8A3D-10956F411FA7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{29E82031-28AA-46FC-8A3D-10956F411FA7}.Debug|Win32.Build.0 = Debug|Win32
+		{29E82031-28AA-46FC-8A3D-10956F411FA7}.Release|Win32.ActiveCfg = Release|Win32
+		{29E82031-28AA-46FC-8A3D-10956F411FA7}.Release|Win32.Build.0 = Release|Win32
+		{3338CC0B-42C7-410C-A7F3-121CFFAE8336}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3338CC0B-42C7-410C-A7F3-121CFFAE8336}.Debug|Win32.Build.0 = Debug|Win32
+		{3338CC0B-42C7-410C-A7F3-121CFFAE8336}.Release|Win32.ActiveCfg = Release|Win32
+		{3338CC0B-42C7-410C-A7F3-121CFFAE8336}.Release|Win32.Build.0 = Release|Win32
+		{C83FEA1A-D3CE-4BA1-8350-4A125C04D483}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C83FEA1A-D3CE-4BA1-8350-4A125C04D483}.Debug|Win32.Build.0 = Debug|Win32
+		{C83FEA1A-D3CE-4BA1-8350-4A125C04D483}.Release|Win32.ActiveCfg = Release|Win32
+		{C83FEA1A-D3CE-4BA1-8350-4A125C04D483}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
