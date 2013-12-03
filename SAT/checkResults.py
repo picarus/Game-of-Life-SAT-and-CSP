@@ -3,6 +3,14 @@ import sys
 from boardutils import readFile, printBoard, generateBoardFromMinisatOutput, generateBoardFromInput, generateBoardFromMinisatExtendedOutput
 from math import sqrt
 
+
+# this main is used in order to show the results in a clearer way
+# than the two methods mentioned in the documentation
+# inputs: the initial configuration, the sat solution
+# output: print on screen the input board and the output board
+#       on the output board the added checkers are marked with *
+#       if any checker on the input was not on the output it would be marked with !
+
 def main():
     if len(sys.argv) >= 2:
         name1 = sys.argv[1]
@@ -21,11 +29,11 @@ def checkResults(name1, name2):
         print 'UNSAT PROBLEM'
         return
     
-    B1 = generateBoardFromInput(M1)
+    B1 = generateBoardFromInput(M1)                 # read Input file
     
-    B2 = generateBoardFromMinisatExtendedOutput(M2)
+    B2 = generateBoardFromMinisatExtendedOutput(M2) # read Result
 
-    compare(B1,B2)
+    compare(B1,B2)          # add * for new checkers (and ! for errors)
     n=len(B2)*2
 
     print '-'*n
