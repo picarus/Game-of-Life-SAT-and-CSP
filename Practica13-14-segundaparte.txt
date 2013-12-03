@@ -1,0 +1,16 @@
+Addendum to the Project "Completion of Stable Patterns in Game of Life"
+
+Author: Javier Larrosa
+
+
+In the first part of the course we studied Propositional Logic technology to model and
+solve combinatorial problems. In the project you had to implement some software to 
+transform the "Completion of Stable Patterns in Game of Life" to CNF in dimacs format. The
+objective was to solve the problem with a SAT-solver such as Minisat.
+
+In the second part of the course we are studying Constraint Programming. The second part of 
+the project consists on finding the "MOST DENSE completion of stable patterns in Game of Life".
+We say that one pattern is denser than another if it has more living cells. 
+
+You must implement a Gecode program that reads the same type of input files as in the first
+part and completes them with the most dense completion such that it is stable.
