@@ -1,0 +1,13 @@
+VarBranch:INT_VAR_SIZE_MAX() ValBranch:INT_VAL_MAX() Time(msec):63
+VarBranch:INT_VAR_SIZE_MAX() ValBranch:INT_VALUES_MAX() Time(msec):78
+VarBranch:INT_VAR_SIZE_MAX() ValBranch:INT_VAL_RANGE_MAX() Time(msec):78
+VarBranch:INT_VAR_SIZE_MAX() ValBranch:INT_VAL_SPLIT_MAX() Time(msec):62
+VarBranch:INT_VAR_ACTIVITY_MAX() ValBranch:INT_VAL_MAX() Time(msec):63
+VarBranch:INT_VAR_ACTIVITY_MAX() ValBranch:INT_VALUES_MAX() Time(msec):62
+VarBranch:INT_VAR_ACTIVITY_MAX() ValBranch:INT_VAL_RANGE_MAX() Time(msec):63
+VarBranch:INT_VAR_ACTIVITY_MAX() ValBranch:INT_VAL_SPLIT_MAX() Time(msec):47
+VarBranch:INT_VAR_ACTIVITY_SIZE_MAX() ValBranch:INT_VAL_MAX() Time(msec):62
+VarBranch:INT_VAR_ACTIVITY_SIZE_MAX() ValBranch:INT_VALUES_MAX() Time(msec):47
+VarBranch:INT_VAR_ACTIVITY_SIZE_MAX() ValBranch:INT_VAL_RANGE_MAX() Time(msec):63
+VarBranch:INT_VAR_ACTIVITY_SIZE_MAX() ValBranch:INT_VAL_SPLIT_MAX() Time(msec):62
+Total:12

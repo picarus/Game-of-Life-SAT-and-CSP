@@ -11,12 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ArithCSP.cpp" />
-    <ClCompile Include="basic-optim-coste.cpp" />
-    <ClCompile Include="basic.cpp" />
-    <ClCompile Include="magic-sequence.cpp" />
-    <ClCompile Include="magic.cpp" />
-    <ClCompile Include="send-more-money.cpp" />
+    <ClCompile Include="GoL.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{29E82031-28AA-46FC-8A3D-10956F411FA7}</ProjectGuid>
