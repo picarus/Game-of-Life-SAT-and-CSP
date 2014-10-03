@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GoL", "GoL\GoL.vcxproj", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{875BCCF1-B912-49D2-894C-AEE45A1ED58A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RoundRobin", "RoundRobin\RoundRobin.vcxproj", "{0C5D1172-BD19-465F-BBC9-501BCD39D0EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +29,10 @@ Global
 		{C83FEA1A-D3CE-4BA1-8350-4A125C04D483}.Debug|Win32.Build.0 = Debug|Win32
 		{C83FEA1A-D3CE-4BA1-8350-4A125C04D483}.Release|Win32.ActiveCfg = Release|Win32
 		{C83FEA1A-D3CE-4BA1-8350-4A125C04D483}.Release|Win32.Build.0 = Release|Win32
+		{0C5D1172-BD19-465F-BBC9-501BCD39D0EE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0C5D1172-BD19-465F-BBC9-501BCD39D0EE}.Debug|Win32.Build.0 = Debug|Win32
+		{0C5D1172-BD19-465F-BBC9-501BCD39D0EE}.Release|Win32.ActiveCfg = Release|Win32
+		{0C5D1172-BD19-465F-BBC9-501BCD39D0EE}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

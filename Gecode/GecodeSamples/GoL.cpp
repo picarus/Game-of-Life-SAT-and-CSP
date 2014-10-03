@@ -55,23 +55,38 @@ public:
 		X = IntVarArray(*this,boardSize,0,1);
 		Matrix<IntVarArray> A(X, n+2);			// using minimodel, a matrix can be used from the original vector
 
+		int x, y;
+		if (nAlive==0){ // the file does not provide the number of alive cells. No empty lines allowed at the end of the file.
 		//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// read the input file
-		int x, y;
-		nAlive=0;
+			nAlive=0;
 		
-		while (!fin.eof()) {
-			IntVar r=IntVar(*this,0,8);
-			fin >> x >> y;						// matrix of active cells
-			nAlive++;							// update the nr. of alive cells
-			//std::cout << nAlive << ' ' << x << ' ' << y << std::endl;
-			rel(*this, A(x,y), IRT_EQ, 1);		// the cell is alive
-			if (redundant) {					// redundant constraints based on knowing the cell is alive
-				r=expr(*this, A(x-1,y-1)+A(x-1,y)+A(x-1,y+1)+A(x,y-1)+A(x,y+1)+A(x+1,y-1)+A(x+1,y)+A(x+1,y+1));
-				rel(*this, (r==2) || (r==3) );
+			while (!fin.eof()) {
+				IntVar r;//=IntVar(*this,0,8);
+				fin >> x >> y;						// matrix of active cells
+				rel(*this, A(x,y), IRT_EQ, 1);		// the cell is alive
+				if (redundant) {					// redundant constraints based on knowing the cell is alive
+					r=expr(*this, A(x-1,y-1)+A(x-1,y)+A(x-1,y+1)+A(x,y-1)+A(x,y+1)+A(x+1,y-1)+A(x+1,y)+A(x+1,y+1));
+					rel(*this, (r==2) || (r==3) );
+				}
+				nAlive++;							// update the nr. of alive cells
+				//std::cout << nAlive << ' ' << x << ' ' << y << std::endl;
+			} 
+		}
+		else { // read the file knowing the number of alive cells we must read
+			int ncells=0;
+			while (ncells<nAlive){
+				IntVar r;//=IntVar(*this,0,8);
+				fin >> x >> y;						// matrix of active cells
+				rel(*this, A(x,y), IRT_EQ, 1);		// the cell is alive
+				if (redundant) {					// redundant constraints based on knowing the cell is alive
+					r=expr(*this, A(x-1,y-1)+A(x-1,y)+A(x-1,y+1)+A(x,y-1)+A(x,y+1)+A(x+1,y-1)+A(x+1,y)+A(x+1,y+1));
+					rel(*this, (r==2) || (r==3) );
+				}
+				//std::cout << ncells << ' ' << x << ' ' << y << std::endl;
+				ncells++;
 			}
-		} 
-
+		}
 		fin.close();
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// init cost function
@@ -228,12 +243,25 @@ int main(int argc, char* argv[]) {
 	opt.parse(argc,argv);
 
 	//////////////////////////////////////////////////////////////
-	// to execute one
+	// to execute: search for best
 	opt.setVar(INT_VAR_SIZE_MAX());
 	opt.setVal(INT_VAL_MAX());
 	std::cout << std::endl << "VarBranch: INT_VAR_SIZE_MAX() ValBranch: INT_VAL_MAX()" <<std::endl ;
 	IntMaximizeScript::run<GoL,BAB,GoLOptions>(opt);
+/*
+	///////////////////////////////////////////////////////////////
+	// find first
+	GoL* gol=new GoL(opt); 
+	DFS<GoL> e(gol);
+	delete gol;
 
+  int c=0;
+  // all solutions 
+  while (GoL* s = e.next()) {
+    s->print(std::cout); delete s;
+	c++;
+  }
+*/
 /* 
 	/////////////////////////////////////////////////////////////////
 	// to execute all configurations of value and variable selection
