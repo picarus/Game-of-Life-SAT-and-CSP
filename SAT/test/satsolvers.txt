@@ -1,0 +1,8 @@
+lingeling --> ok: muchas opciones
+ubcsat --> ok
+----------------------------------------------------
+march--> no opciones. no da output!!!
+rsat --> no opciones
+winsat --> donde estan los resultados?
+minisat 2 --> no compila
+fss-galib --> no compila

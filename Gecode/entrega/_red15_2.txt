@@ -1,0 +1,1071 @@
+VarBranch:INT_VAR_SIZE_MAX() ValBranch:INT_VAL_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.018 (18.000 ms)
+	solutions:    2
+	propagations: 113563
+	nodes:        566
+	failures:     281
+	restarts:     0
+	no-goods:     0
+	peak depth:   22
+
+VarBranch:INT_VAR_SIZE_MAX() ValBranch:INT_VALUES_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.017 (17.000 ms)
+	solutions:    2
+	propagations: 113631
+	nodes:        566
+	failures:     281
+	restarts:     0
+	no-goods:     0
+	peak depth:   22
+
+VarBranch:INT_VAR_SIZE_MAX() ValBranch:INT_VAL_RANGE_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.017 (17.000 ms)
+	solutions:    2
+	propagations: 113868
+	nodes:        566
+	failures:     281
+	restarts:     0
+	no-goods:     0
+	peak depth:   22
+
+VarBranch:INT_VAR_SIZE_MAX() ValBranch:INT_VAL_SPLIT_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.018 (18.000 ms)
+	solutions:    2
+	propagations: 113712
+	nodes:        566
+	failures:     281
+	restarts:     0
+	no-goods:     0
+	peak depth:   22
+
+VarBranch:INT_VAR_SIZE_MAX() ValBranch:INT_VAL_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.018 (18.000 ms)
+	solutions:    2
+	propagations: 121137
+	nodes:        565
+	failures:     281
+	restarts:     0
+	no-goods:     0
+	peak depth:   20
+
+VarBranch:INT_VAR_SIZE_MAX() ValBranch:INT_VALUES_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.018 (18.000 ms)
+	solutions:    2
+	propagations: 121137
+	nodes:        565
+	failures:     281
+	restarts:     0
+	no-goods:     0
+	peak depth:   20
+
+VarBranch:INT_VAR_SIZE_MAX() ValBranch:INT_VAL_RANGE_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.018 (18.000 ms)
+	solutions:    2
+	propagations: 121137
+	nodes:        565
+	failures:     281
+	restarts:     0
+	no-goods:     0
+	peak depth:   20
+
+VarBranch:INT_VAR_SIZE_MAX() ValBranch:INT_VAL_SPLIT_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.018 (18.000 ms)
+	solutions:    2
+	propagations: 120948
+	nodes:        565
+	failures:     281
+	restarts:     0
+	no-goods:     0
+	peak depth:   20
+
+VarBranch:INT_VAR_SIZE_MAX() ValBranch:INT_VAL_RND(0)
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.017 (17.000 ms)
+	solutions:    1
+	propagations: 113764
+	nodes:        551
+	failures:     275
+	restarts:     0
+	no-goods:     0
+	peak depth:   20
+
+VarBranch:INT_VAR_ACTIVITY_MAX() ValBranch:INT_VAL_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.052 (52.000 ms)
+	solutions:    2
+	propagations: 355441
+	nodes:        1772
+	failures:     884
+	restarts:     0
+	no-goods:     0
+	peak depth:   21
+
+VarBranch:INT_VAR_ACTIVITY_MAX() ValBranch:INT_VALUES_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.053 (53.000 ms)
+	solutions:    2
+	propagations: 356915
+	nodes:        1772
+	failures:     884
+	restarts:     0
+	no-goods:     0
+	peak depth:   21
+
+VarBranch:INT_VAR_ACTIVITY_MAX() ValBranch:INT_VAL_RANGE_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.052 (52.000 ms)
+	solutions:    2
+	propagations: 356925
+	nodes:        1772
+	failures:     884
+	restarts:     0
+	no-goods:     0
+	peak depth:   21
+
+VarBranch:INT_VAR_ACTIVITY_MAX() ValBranch:INT_VAL_SPLIT_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.051 (51.000 ms)
+	solutions:    2
+	propagations: 356925
+	nodes:        1772
+	failures:     884
+	restarts:     0
+	no-goods:     0
+	peak depth:   21
+
+VarBranch:INT_VAR_ACTIVITY_MAX() ValBranch:INT_VAL_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.146 (146.000 ms)
+	solutions:    2
+	propagations: 961395
+	nodes:        6455
+	failures:     3226
+	restarts:     0
+	no-goods:     0
+	peak depth:   22
+
+VarBranch:INT_VAR_ACTIVITY_MAX() ValBranch:INT_VALUES_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.147 (147.000 ms)
+	solutions:    2
+	propagations: 961395
+	nodes:        6455
+	failures:     3226
+	restarts:     0
+	no-goods:     0
+	peak depth:   22
+
+VarBranch:INT_VAR_ACTIVITY_MAX() ValBranch:INT_VAL_RANGE_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.148 (148.000 ms)
+	solutions:    2
+	propagations: 961397
+	nodes:        6455
+	failures:     3226
+	restarts:     0
+	no-goods:     0
+	peak depth:   22
+
+VarBranch:INT_VAR_ACTIVITY_MAX() ValBranch:INT_VAL_SPLIT_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.147 (147.000 ms)
+	solutions:    2
+	propagations: 957867
+	nodes:        6455
+	failures:     3226
+	restarts:     0
+	no-goods:     0
+	peak depth:   22
+
+VarBranch:INT_VAR_ACTIVITY_MAX() ValBranch:INT_VAL_RND(0)
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.310 (310.000 ms)
+	solutions:    3
+	propagations: 1968383
+	nodes:        13455
+	failures:     6725
+	restarts:     0
+	no-goods:     0
+	peak depth:   25
+
+VarBranch:INT_VAR_ACTIVITY_SIZE_MAX() ValBranch:INT_VAL_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.052 (52.000 ms)
+	solutions:    2
+	propagations: 356908
+	nodes:        1772
+	failures:     884
+	restarts:     0
+	no-goods:     0
+	peak depth:   21
+
+VarBranch:INT_VAR_ACTIVITY_SIZE_MAX() ValBranch:INT_VALUES_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.052 (52.000 ms)
+	solutions:    2
+	propagations: 355806
+	nodes:        1772
+	failures:     884
+	restarts:     0
+	no-goods:     0
+	peak depth:   21
+
+VarBranch:INT_VAR_ACTIVITY_SIZE_MAX() ValBranch:INT_VAL_RANGE_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.052 (52.000 ms)
+	solutions:    2
+	propagations: 355796
+	nodes:        1772
+	failures:     884
+	restarts:     0
+	no-goods:     0
+	peak depth:   21
+
+VarBranch:INT_VAR_ACTIVITY_SIZE_MAX() ValBranch:INT_VAL_SPLIT_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.053 (53.000 ms)
+	solutions:    2
+	propagations: 355806
+	nodes:        1772
+	failures:     884
+	restarts:     0
+	no-goods:     0
+	peak depth:   21
+
+VarBranch:INT_VAR_ACTIVITY_SIZE_MAX() ValBranch:INT_VAL_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.148 (148.000 ms)
+	solutions:    2
+	propagations: 957993
+	nodes:        6455
+	failures:     3226
+	restarts:     0
+	no-goods:     0
+	peak depth:   22
+
+VarBranch:INT_VAR_ACTIVITY_SIZE_MAX() ValBranch:INT_VALUES_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.148 (148.000 ms)
+	solutions:    2
+	propagations: 957993
+	nodes:        6455
+	failures:     3226
+	restarts:     0
+	no-goods:     0
+	peak depth:   22
+
+VarBranch:INT_VAR_ACTIVITY_SIZE_MAX() ValBranch:INT_VAL_RANGE_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.147 (147.000 ms)
+	solutions:    2
+	propagations: 958993
+	nodes:        6455
+	failures:     3226
+	restarts:     0
+	no-goods:     0
+	peak depth:   22
+
+VarBranch:INT_VAR_ACTIVITY_SIZE_MAX() ValBranch:INT_VAL_SPLIT_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.148 (148.000 ms)
+	solutions:    2
+	propagations: 957986
+	nodes:        6455
+	failures:     3226
+	restarts:     0
+	no-goods:     0
+	peak depth:   22
+
+VarBranch:INT_VAR_ACTIVITY_SIZE_MAX() ValBranch:INT_VAL_RND(0)
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.180 (180.000 ms)
+	solutions:    2
+	propagations: 1099419
+	nodes:        7713
+	failures:     3855
+	restarts:     0
+	no-goods:     0
+	peak depth:   24
+
+VarBranch:INT_VAR_SIZE_MIN() ValBranch:INT_VAL_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.017 (17.000 ms)
+	solutions:    2
+	propagations: 113563
+	nodes:        566
+	failures:     281
+	restarts:     0
+	no-goods:     0
+	peak depth:   22
+
+VarBranch:INT_VAR_SIZE_MIN() ValBranch:INT_VALUES_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.017 (17.000 ms)
+	solutions:    2
+	propagations: 113555
+	nodes:        566
+	failures:     281
+	restarts:     0
+	no-goods:     0
+	peak depth:   22
+
+VarBranch:INT_VAR_SIZE_MIN() ValBranch:INT_VAL_RANGE_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.018 (18.000 ms)
+	solutions:    2
+	propagations: 113555
+	nodes:        566
+	failures:     281
+	restarts:     0
+	no-goods:     0
+	peak depth:   22
+
+VarBranch:INT_VAR_SIZE_MIN() ValBranch:INT_VAL_SPLIT_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.017 (17.000 ms)
+	solutions:    2
+	propagations: 113563
+	nodes:        566
+	failures:     281
+	restarts:     0
+	no-goods:     0
+	peak depth:   22
+
+VarBranch:INT_VAR_SIZE_MIN() ValBranch:INT_VAL_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.018 (18.000 ms)
+	solutions:    2
+	propagations: 120921
+	nodes:        565
+	failures:     281
+	restarts:     0
+	no-goods:     0
+	peak depth:   20
+
+VarBranch:INT_VAR_SIZE_MIN() ValBranch:INT_VALUES_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.018 (18.000 ms)
+	solutions:    2
+	propagations: 120921
+	nodes:        565
+	failures:     281
+	restarts:     0
+	no-goods:     0
+	peak depth:   20
+
+VarBranch:INT_VAR_SIZE_MIN() ValBranch:INT_VAL_RANGE_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.018 (18.000 ms)
+	solutions:    2
+	propagations: 120923
+	nodes:        565
+	failures:     281
+	restarts:     0
+	no-goods:     0
+	peak depth:   20
+
+VarBranch:INT_VAR_SIZE_MIN() ValBranch:INT_VAL_SPLIT_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.018 (18.000 ms)
+	solutions:    2
+	propagations: 120921
+	nodes:        565
+	failures:     281
+	restarts:     0
+	no-goods:     0
+	peak depth:   20
+
+VarBranch:INT_VAR_SIZE_MIN() ValBranch:INT_VAL_RND(0)
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.017 (17.000 ms)
+	solutions:    2
+	propagations: 112129
+	nodes:        561
+	failures:     279
+	restarts:     0
+	no-goods:     0
+	peak depth:   20
+
+VarBranch:INT_VAR_ACTIVITY_MIN() ValBranch:INT_VAL_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.023 (23.000 ms)
+	solutions:    2
+	propagations: 154149
+	nodes:        741
+	failures:     369
+	restarts:     0
+	no-goods:     0
+	peak depth:   24
+
+VarBranch:INT_VAR_ACTIVITY_MIN() ValBranch:INT_VALUES_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.023 (23.000 ms)
+	solutions:    2
+	propagations: 154110
+	nodes:        741
+	failures:     369
+	restarts:     0
+	no-goods:     0
+	peak depth:   24
+
+VarBranch:INT_VAR_ACTIVITY_MIN() ValBranch:INT_VAL_RANGE_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.023 (23.000 ms)
+	solutions:    2
+	propagations: 153885
+	nodes:        741
+	failures:     369
+	restarts:     0
+	no-goods:     0
+	peak depth:   24
+
+VarBranch:INT_VAR_ACTIVITY_MIN() ValBranch:INT_VAL_SPLIT_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.022 (22.000 ms)
+	solutions:    2
+	propagations: 153876
+	nodes:        741
+	failures:     369
+	restarts:     0
+	no-goods:     0
+	peak depth:   24
+
+VarBranch:INT_VAR_ACTIVITY_MIN() ValBranch:INT_VAL_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.017 (17.000 ms)
+	solutions:    2
+	propagations: 115634
+	nodes:        579
+	failures:     288
+	restarts:     0
+	no-goods:     0
+	peak depth:   20
+
+VarBranch:INT_VAR_ACTIVITY_MIN() ValBranch:INT_VALUES_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.017 (17.000 ms)
+	solutions:    2
+	propagations: 115610
+	nodes:        579
+	failures:     288
+	restarts:     0
+	no-goods:     0
+	peak depth:   20
+
+VarBranch:INT_VAR_ACTIVITY_MIN() ValBranch:INT_VAL_RANGE_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.018 (18.000 ms)
+	solutions:    2
+	propagations: 115759
+	nodes:        579
+	failures:     288
+	restarts:     0
+	no-goods:     0
+	peak depth:   20
+
+VarBranch:INT_VAR_ACTIVITY_MIN() ValBranch:INT_VAL_SPLIT_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.018 (18.000 ms)
+	solutions:    2
+	propagations: 115704
+	nodes:        579
+	failures:     288
+	restarts:     0
+	no-goods:     0
+	peak depth:   20
+
+VarBranch:INT_VAR_ACTIVITY_MIN() ValBranch:INT_VAL_RND(0)
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.018 (18.000 ms)
+	solutions:    1
+	propagations: 118035
+	nodes:        569
+	failures:     284
+	restarts:     0
+	no-goods:     0
+	peak depth:   19
+
+VarBranch:INT_VAR_ACTIVITY_SIZE_MIN() ValBranch:INT_VAL_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.023 (23.000 ms)
+	solutions:    2
+	propagations: 154182
+	nodes:        741
+	failures:     369
+	restarts:     0
+	no-goods:     0
+	peak depth:   24
+
+VarBranch:INT_VAR_ACTIVITY_SIZE_MIN() ValBranch:INT_VALUES_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.023 (23.000 ms)
+	solutions:    2
+	propagations: 154182
+	nodes:        741
+	failures:     369
+	restarts:     0
+	no-goods:     0
+	peak depth:   24
+
+VarBranch:INT_VAR_ACTIVITY_SIZE_MIN() ValBranch:INT_VAL_RANGE_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.023 (23.000 ms)
+	solutions:    2
+	propagations: 154191
+	nodes:        741
+	failures:     369
+	restarts:     0
+	no-goods:     0
+	peak depth:   24
+
+VarBranch:INT_VAR_ACTIVITY_SIZE_MIN() ValBranch:INT_VAL_SPLIT_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.022 (22.000 ms)
+	solutions:    2
+	propagations: 154191
+	nodes:        741
+	failures:     369
+	restarts:     0
+	no-goods:     0
+	peak depth:   24
+
+VarBranch:INT_VAR_ACTIVITY_SIZE_MIN() ValBranch:INT_VAL_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.017 (17.000 ms)
+	solutions:    2
+	propagations: 115796
+	nodes:        579
+	failures:     288
+	restarts:     0
+	no-goods:     0
+	peak depth:   20
+
+VarBranch:INT_VAR_ACTIVITY_SIZE_MIN() ValBranch:INT_VALUES_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.017 (17.000 ms)
+	solutions:    2
+	propagations: 115529
+	nodes:        579
+	failures:     288
+	restarts:     0
+	no-goods:     0
+	peak depth:   20
+
+VarBranch:INT_VAR_ACTIVITY_SIZE_MIN() ValBranch:INT_VAL_RANGE_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.018 (18.000 ms)
+	solutions:    2
+	propagations: 115694
+	nodes:        579
+	failures:     288
+	restarts:     0
+	no-goods:     0
+	peak depth:   20
+
+VarBranch:INT_VAR_ACTIVITY_SIZE_MIN() ValBranch:INT_VAL_SPLIT_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.018 (18.000 ms)
+	solutions:    2
+	propagations: 115823
+	nodes:        579
+	failures:     288
+	restarts:     0
+	no-goods:     0
+	peak depth:   20
+
+VarBranch:INT_VAR_ACTIVITY_SIZE_MIN() ValBranch:INT_VAL_RND(0)
+GoL
+15 77 225
+Initial
+	propagators: 3900
+	branchers:   1
+
+Summary
+	runtime:      0.020 (20.000 ms)
+	solutions:    2
+	propagations: 134461
+	nodes:        665
+	failures:     331
+	restarts:     0
+	no-goods:     0
+	peak depth:   22
+
+VarBranch:INT_VAR_RND(0) ValBranch:INT_VAL_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.323 (323.000 ms)
+	solutions:    2
+	propagations: 1987603
+	nodes:        11543
+	failures:     5770
+	restarts:     0
+	no-goods:     0
+	peak depth:   27
+
+VarBranch:INT_VAR_RND(0) ValBranch:INT_VALUES_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.377 (377.000 ms)
+	solutions:    1
+	propagations: 2189716
+	nodes:        13491
+	failures:     6745
+	restarts:     0
+	no-goods:     0
+	peak depth:   26
+
+VarBranch:INT_VAR_RND(0) ValBranch:INT_VAL_RANGE_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.206 (206.000 ms)
+	solutions:    3
+	propagations: 1335020
+	nodes:        7927
+	failures:     3960
+	restarts:     0
+	no-goods:     0
+	peak depth:   26
+
+VarBranch:INT_VAR_RND(0) ValBranch:INT_VAL_SPLIT_MAX()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.326 (326.000 ms)
+	solutions:    3
+	propagations: 2006113
+	nodes:        11409
+	failures:     5702
+	restarts:     0
+	no-goods:     0
+	peak depth:   27
+
+VarBranch:INT_VAR_RND(0) ValBranch:INT_VAL_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.275 (275.000 ms)
+	solutions:    2
+	propagations: 1667044
+	nodes:        10225
+	failures:     5111
+	restarts:     0
+	no-goods:     0
+	peak depth:   29
+
+VarBranch:INT_VAR_RND(0) ValBranch:INT_VALUES_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.298 (298.000 ms)
+	solutions:    1
+	propagations: 1691874
+	nodes:        10611
+	failures:     5305
+	restarts:     0
+	no-goods:     0
+	peak depth:   33
+
+VarBranch:INT_VAR_RND(0) ValBranch:INT_VAL_RANGE_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.156 (156.000 ms)
+	solutions:    2
+	propagations: 986953
+	nodes:        6527
+	failures:     3262
+	restarts:     0
+	no-goods:     0
+	peak depth:   30
+
+VarBranch:INT_VAR_RND(0) ValBranch:INT_VAL_SPLIT_MIN()
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.296 (296.000 ms)
+	solutions:    3
+	propagations: 1772813
+	nodes:        10959
+	failures:     5477
+	restarts:     0
+	no-goods:     0
+	peak depth:   29
+
+VarBranch:INT_VAR_RND(0) ValBranch:INT_VAL_RND(0)
+GoL
+15 77 225
+Initial
+	propagators: 3899
+	branchers:   1
+
+Summary
+	runtime:      0.228 (228.000 ms)
+	solutions:    2
+	propagations: 1536844
+	nodes:        9113
+	failures:     4555
+	restarts:     0
+	no-goods:     0
+	peak depth:   25
+
